@@ -42,9 +42,61 @@ nav>a {
     align-items: center;
 }
 
-#accueil>h1 {
-    color: #fff;
+.titre {
+    width: 75%;
+    height: 20%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titre>h1 {
     font-family: 'Bangers', cursive;
-    font-size: 8em;
-    letter-spacing: 5px;
+    font-size: 5em;
+    letter-spacing: 4px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.phrase {
+    width: 75%;
+    height: 10%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phrase>p {
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.bouton {
+    width: 75%;
+    height: 10%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bouton>a {
+    padding: 10px;
+    color: #fff;
+    background-color: var(--blue1);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    font-size: 1.4em;
+}
+.bouton>a:hover {
+    font-size: 1.5em;
+    box-shadow: 5px 5px 4px #000;
+}
+.bouton>a:active {
+    font-size: 1.3em;
+    box-shadow: 3px 3px 4px #000;
 }
