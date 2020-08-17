@@ -9,6 +9,8 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+
 header {
     position: fixed;
     width: 100%;
@@ -30,6 +32,8 @@ nav>a {
     text-decoration: none;
     color: #fff;
 }
+
+/* ACCUEIL */
 
 #accueil {
     height: 100vh;
@@ -65,7 +69,7 @@ nav>a {
     /* border: 1px solid #fff; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .phrase>p {
@@ -99,4 +103,10 @@ nav>a {
 .bouton>a:active {
     font-size: 1.3em;
     box-shadow: 3px 3px 4px #000;
+}
+
+/* ACCUEIL HISTOIRE */
+
+#accueil_histoire {
+    min-height: 50vh;
 }
